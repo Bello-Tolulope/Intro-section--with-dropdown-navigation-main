@@ -80,19 +80,51 @@ body{
 .offcanvas .offcanvas-body ul li a{
     font-size: 15px;
     position: relative;
-    top: -4px;
-    
-    
+    top: -4px; 
 }
 
 .offcanvas-body .dropdown-menu{
     padding-left: 30px;
 }
 
-/* .navbar .dropdown-toggle::after {
-    position: relative;
-    top: 3px;
-} */
+/* .....MAIN CONTENT.... */
+.home{
+    padding: 5px 5%;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-family: 'poppins', sans-serif;
+    font-size: 90px;
+    font-weight: bolder;
+}
+p{
+    padding: 30px 50px 30px 0px;
+}
+.home .about{
+    padding-top: 200px;
+    width:45%;
+
+}
+.home .img{
+    width: 50%;
+    height: 45%;
+    
+}
+.buttons .btn{
+    display: block;
+    width:40%;
+    padding: 10px 0;
+    border-radius: 15px;
+}
+.client{
+    padding-top: 250px;
+    padding-bottom: 100px;   
+}
+.client img{
+    margin: 0 25px;   
+}
+
 
 
 
